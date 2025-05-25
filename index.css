@@ -1,0 +1,59 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+  font-family: sans-serif;
+  background-color: #000;
+  color: #000;
+}
+h1 {
+  color: #007BFF; /* azul mais vibrante */
+}
+.Miku {
+  width: 90vw; /* 90% da largura da tela */
+  max-width: 400px; /* evita passar do limite em telas maiores */
+  height: auto; /* mantém proporção da imagem */
+  display: block;
+  margin: 20px auto; /* centraliza e dá espaçamento */
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2); /* leve sombra elegante */
+}
+.botao-animes {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #1e90ff; /* azul vibrante */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.botao-animes:hover {
+  background-color: #006ad1; /* azul mais escuro ao passar o mouse */
+  transform: scale(1.05); /* leve aumento para destacar */
+}
+.laranja {
+  color: orange;
+}
+.dourado{
+  color:gold;
+}
+.blue{
+  color:blue;
+}
+.rodape {
+  background-color: #000; /* fundo preto para destacar */
+  color: #fff; /* letras brancas */
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  margin-top: 30px;
+}
