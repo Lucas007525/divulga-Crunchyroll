@@ -1,4 +1,11 @@
 /* Reset básico */
+:root{
+  --preto:#000000;
+ --azul-vibrante:#007BFF;
+--outro-azul:#1e90ff;
+--botao-azul:#006ad1;
+--tamanho-fonte-base:var(--tamanho-fonte-base)
+}
 * {
   margin: 0;
   padding: 0;
@@ -8,11 +15,11 @@
 /* Estilo do corpo da página */
 body {
   font-family: sans-serif;
-  background-color: #000;
-  color: #000;
+  background-color: var(--preto);
+  color: var(--preto);
 }
 h1 {
-  color: #007BFF; /* azul mais vibrante */
+  color: var(--azul-vibrante); /* azul mais vibrante */
 }
 .Miku {
   width: 90vw; /* 90% da largura da tela */
@@ -26,7 +33,7 @@ h1 {
 .botao-animes {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #1e90ff; /* azul vibrante */
+  background-color: var(--outro-azul); /* azul vibrante */
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -50,7 +57,6 @@ h1 {
   color:blue;
 }
 .rodape {
-  background-color: #000; /* fundo preto para destacar */
   color: #fff; /* letras brancas */
   text-align: center;
   font-size: 14px;
