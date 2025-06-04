@@ -4,7 +4,7 @@
  --azul-vibrante:#007BFF;
 --outro-azul:#1e90ff;
 --botao-azul:#006ad1;
---tamanho-fonte-base:var(--tamanho-fonte-base)
+--tamanho-fonte-base:42px; 
 }
 * {
   margin: 0;
@@ -17,6 +17,7 @@ body {
   font-family: sans-serif;
   background-color: var(--preto);
   color: var(--preto);
+  font-size: var(--tamanho-fonte-base);
 }
 h1 {
   color: var(--azul-vibrante); /* azul mais vibrante */
